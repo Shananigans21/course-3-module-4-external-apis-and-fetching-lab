@@ -8,10 +8,24 @@
 </head>
 <body>
   <h1>Weather App</h1>
+  
+  <!-- Input and Button for City Name -->
   <input type="text" id="city-input" placeholder="Enter city name">
   <button id="fetch-weather">Get Weather</button>
+  
+  <!-- Weather Display Section -->
   <div id="weather-display"></div>
+  
+  <!-- Loading Indicator (Initially Hidden) -->
+  <div id="loading-indicator" style="display:none;">Loading...</div>
+  
+  <!-- Weather Information Section -->
+  <div id="weather-info"></div>
+  
+  <!-- Error Message Section -->
   <div id="error-message" class="hidden"></div>
-  <script src="../index.js"></script>
+  
+  <!-- Link to your JavaScript file -->
+  <script src="index.js"></script>
 </body>
 </html>
